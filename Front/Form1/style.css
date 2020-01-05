@@ -1,0 +1,94 @@
+body {
+	margin: 0;
+}
+
+.back-color {
+	height: 100vh;
+	background: linear-gradient(to top, rgb(33, 35, 86) 5%, rgb(198, 194, 253) 80%);
+}
+
+.form {
+	position: relative;
+	background: rgb(249, 250, 255);
+	height: 90vh;
+	width: 600px;
+	margin: 0 auto;
+	top: 45%;
+	transform: translate(0, -50%);
+}
+
+h2 + hr {
+	position: relative;
+	background-color: rgb(228, 229, 233);
+	height: 2px;
+	width: 600px;
+	top: -7%;
+}
+
+h2 {
+	position: relative;
+	color: rgb(66, 39, 57);
+	left: 5%;
+}
+
+.top {
+	background-color: rgb(243, 242, 248);
+}
+
+.about-self {
+	width: 540px;
+	height: 14vh;
+	display: inline-block;
+	margin: 0 5% 0 5%;
+}
+div.about-self > p:nth-child(odd) {
+	float: left;
+	display: block;
+	margin: 25px 32px 0 0;
+}
+
+div.about-self > p:nth-child(even) {
+	margin: 25px 0 0 0;
+}
+.about-address{
+	width: 540px;
+	height: 29vh;
+	display: inline-block;
+	margin: 0 5% 0 5%;
+}
+ .dropdown,.city {
+	float: left;
+	display: block;
+	margin: 5px 35px 15px 0;
+}
+.about-card{
+	display: inline-block;
+	margin: 0 5% 0 5%;
+}
+.radio1, .radio2 , .radio3{
+	float: left;
+	display: block;
+	margin: 13px 32px 25px 0;
+}
+.card,.cvv2 {
+	float: left;
+	display: block;
+	margin: 2px 40px 15px 0;
+}
+h6,.mounth .year{
+	float: left;
+	display: block;
+	margin: 15px 10px 15px 0;
+}
+.mounth{
+	margin-top: -10%;
+}
+h6+hr{
+	margin-top: 20%;
+}
+.btn{
+	margin-top: -10px;
+	margin-left: 85%;
+	 color: white;
+	 background: rgb(185, 93, 202);
+}
